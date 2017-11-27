@@ -2,7 +2,7 @@
 	<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 		<span class="navbar-toggler-icon"></span>
 	</button>
-	<ul class="navbar-nav">
+	<ul class="navbar-nav mr-auto">
 		<li class="nav-item">
 			<a href="dashboard.php" class="navbar-brand">TutorHub</a>
 		</li>
@@ -18,5 +18,11 @@
 		<li class="nav-item">
 			<a href="test.php" class="nav-link">Test</a>
 		</li>
+	</ul>
+	<ul class="navbar-nav justify-content-end">
+		<form class="form-inline">
+			<input class="form-control mr-sm-2" type="text" placeholder="Search">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+		</form>
 	</ul>
 </nav>
