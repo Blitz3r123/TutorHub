@@ -10,27 +10,7 @@
 	</head>
 	<body>
 		<?php require_once('loggedNavbar.php'); ?>
-		<!-- Side navigation bar -->
-		<div id="sideNav" style="margin-top: 8vh;" class="col-md-3 col-lg-3 col-sm-3 hidden-xs">
-			<p class="lead" style="font-size: 2rem;">Welcome Kaleem</p>
-			<ul class="nav flex-column" id="sideNavbar">
-				<li class="nav-item">
-					<a class="nav-link" href="#">Classes</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Students</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Teachers</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Homeworks</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Tests</a>
-				</li>
-			</ul>
-		</div>
+		<?php require_once('sidebar.php'); ?>
 		<!-- Main page content -->
 		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
 			<div class="container-fluid" style=""><!-- container for padding -->
