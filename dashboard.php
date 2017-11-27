@@ -29,8 +29,19 @@
 		</div>
 		<!-- Main page content -->
 		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
-			<div class="container-fluid" style="display: flex;"><!-- container for padding -->
-				
+			<div class="container-fluid" style=""><!-- container for padding -->
+				<div class="topicButton">
+					<a href="">Students</a>
+				</div>
+				<div class="topicButton">
+					<a href="">Teachers</a>
+				</div>
+				<div class="topicButton">
+					<a href="">Homeworks</a>
+				</div>
+				<div class="topicButton">
+					<a href="">Tests</a>
+				</div>
 			</div>
 		</div>
 	</body>
