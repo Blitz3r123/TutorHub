@@ -1,3 +1,9 @@
+body{
+	display: flex;
+}
+
+/*SIDE NAVIGATION BAR STYLES*/
+
 #sideNav{
 	border-right: 2px solid #aaa;
 	background-color: #F7F7F7;
@@ -39,3 +45,22 @@
 #sideNavbar li:hover > a{
 	color: white;
 }
+
+/*END OF SIDE NAVIGATION BAR STYLES*/
+
+
+/*MAIN PAGE CONTENT STYLES*/
+
+.topicButtonFirstRow{
+	width: 100%;
+}
+
+.topicButtonSecondRow{
+	width: 100%;
+}
+
+.topicButton{
+	outline: 1px solid black;
+}
+
+/*END OF MAIN PAGE CONTENT STYLES*/

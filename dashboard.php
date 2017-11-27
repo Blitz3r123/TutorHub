@@ -28,8 +28,8 @@
 			</ul>
 		</div>
 		<!-- Main page content -->
-		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12">
-			<div class="container-fluid"><!-- container for padding -->
+		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
+			<div class="container-fluid" style="display: flex;"><!-- container for padding -->
 				
 			</div>
 		</div>
