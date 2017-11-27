@@ -7,10 +7,16 @@
 			<a href="dashboard.php" class="navbar-brand">TutorHub</a>
 		</li>
 		<li class="nav-item">
-			<a href="about.php" class="nav-link">About</a>
+			<a href="classes.php" class="nav-link">Classes</a>
 		</li>
 		<li class="nav-item">
-			<a href="contact.php" class="nav-link">Contact</a>
+			<a href="students.php" class="nav-link">Students</a>
+		</li>
+		<li class="nav-item">
+			<a href="homeworks.php" class="nav-link">Homeworks</a>
+		</li>
+		<li class="nav-item">
+			<a href="test.php" class="nav-link">Test</a>
 		</li>
 	</ul>
 </nav>
