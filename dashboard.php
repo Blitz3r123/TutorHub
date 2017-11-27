@@ -15,6 +15,9 @@
 			<p class="lead" style="font-size: 2rem;">Welcome Kaleem</p>
 			<ul class="nav flex-column" id="sideNavbar">
 				<li class="nav-item">
+					<a class="nav-link" href="#">Classes</a>
+				</li>
+				<li class="nav-item">
 					<a class="nav-link" href="#">Students</a>
 				</li>
 				<li class="nav-item">
