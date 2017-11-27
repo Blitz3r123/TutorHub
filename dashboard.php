@@ -11,24 +11,24 @@
 	<body>
 		<?php require_once('loggedNavbar.php'); ?>
 		<!-- Side navigation bar -->
-		<div id="sideNav">
-			<ul class="nav flex-column" id="exCollapsingNavbar3">
+		<div id="sideNav" style="margin-top: 8vh;" class="col-md-3 col-lg-3 col-sm-3 hidden-xs">
+			<ul class="nav flex-column" id="sideNavbar">
 				<li class="nav-item">
-					<a class="nav-link active" href="#">Active</a>
+					<a class="nav-link" href="#">Students</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="#">Teachers</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#">Link</a>
+					<a class="nav-link" href="#">Homeworks</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link disabled" href="#">Disabled</a>
+					<a class="nav-link" href="#">Tests</a>
 				</li>
 			</ul>
 		</div>
 		<!-- Main page content -->
-		<div id="content">
+		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12">
 			<div class="container-fluid"><!-- container for padding -->
 				
 			</div>
