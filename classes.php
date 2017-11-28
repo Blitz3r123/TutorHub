@@ -12,9 +12,36 @@
 		<?php require_once('loggedNavbar.php'); ?>
 		<?php require_once('sidebar.php'); ?>
 		<!-- Main page content -->
-		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
+		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh; margin-left: 25vw;">
 			<div class="container-fluid" style=""><!-- container for padding -->
 				
+				<div id="pageTitle">
+					<p class="h1">Classes</p>
+					<form class="form-inline">
+						<input class="form-control mr-sm-2" type="text" placeholder="Look for a class...">
+						<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+					</form>
+				</div>
+				
+				<div class="subjectContainer">
+					<p class="h3" style="margin-left: 2.5%;">KS3</p>
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail left-image">
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail">
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail">
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail">
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail left-image">
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail">
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail">
+					<img src="images/thumbnail.svg" width="22.5%" alt="" class="img-thumbnail">
+				</div>
+
+				<div class="subjectContainer">
+					<p class="h3">GCSE</p>
+				</div>
+
+				<div class="subjectContainer">
+					<p class="h3">A-LEVEL</p>
+				</div>
 			</div>
 		</div>
 	</body>
