@@ -22,6 +22,9 @@
 			<li class="nav-item">
 				<a href="tests.php" class="nav-link">Tests</a>
 			</li>
+			<li class="nav-item">
+				<a href="timetable.php" class="nav-link">Timetable</a>
+			</li>
 		</ul>
 		<!-- <ul class="navbar-nav justify-content-end">
 			<form class="form-inline">
