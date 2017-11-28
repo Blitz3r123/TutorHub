@@ -15,21 +15,33 @@
 		<?php require_once('sidebar.php'); ?>
 		<!-- Main page content -->
 		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
-			<div class="container-fluid" style=""><!-- container for padding -->
-				<div class="graphContainer">
-					<div class="chartContainer" style="width: 30%; float: left;">
-						<canvas id="myChart" width="400" height="400"></canvas>
-						<p class="h3 graphTitle">Attendance</p>
+			<div class="container-fluid"><!-- container for padding -->
+				
+				<div class="main-content">
+					<p class="h1 page-title">GCSE Biology</p>
+					<p class="lead h5 page-subtitle">Saturday 12pm - 2pm</p><br>
+
+					<div class="graphContainer">
+						<div class="chartContainer" style="width: 30%; float: left;">
+							<canvas id="myChart" width="400" height="400"></canvas>
+							<p class="h3 graphTitle">Attendance</p>
+						</div>
+						<div class="chartContainer" style="width: 30%; float: left;">
+							<canvas id="myChart2" width="400" height="400"></canvas>
+							<p class="h3 graphTitle">Marks</p>
+						</div>
+						<div class="chartContainer" style="width: 30%; float: left;">
+							<canvas id="myChart3" width="400" height="400"></canvas>
+							<p class="h3 graphTitle">Students</p>
+						</div>
 					</div>
-					<div class="chartContainer" style="width: 30%; float: left;">
-						<canvas id="myChart2" width="400" height="400"></canvas>
-						<p class="h3 graphTitle">Marks</p>
+
+					<div class="studentsContainer">
+						
 					</div>
-					<div class="chartContainer" style="width: 30%; float: left;">
-						<canvas id="myChart3" width="400" height="400"></canvas>
-						<p class="h3 graphTitle">Students</p>
-					</div>
+
 				</div>
+
 			</div>
 		</div>
 		<script>
