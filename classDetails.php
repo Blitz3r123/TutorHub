@@ -9,6 +9,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>		
 		<link rel="stylesheet" href="css/classesStyle.css">
 		<link rel="stylesheet" href="css/classDetailStyle.css">
+		<link rel="stylesheet" href="css/sidebarStyle.css">
 	</head>
 	<body>
 		<?php require_once('loggedNavbar.php'); ?>

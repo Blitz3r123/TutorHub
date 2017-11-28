@@ -7,6 +7,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="css/classesStyle.css">
+		<link rel="stylesheet" href="css/sidebarStyle.css">
 	</head>
 	<body>
 		<?php require_once('loggedNavbar.php'); ?>
@@ -27,25 +28,25 @@
 					<p class="h3" style="margin-left: 4%;">KS3</p>
 					<div class="classImages">
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/B.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/C.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Chemistry <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/P.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Physics <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/M.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Maths <br> Saturday 12-2</p>
 							</a>
@@ -57,25 +58,25 @@
 					<p class="h3" style="margin-left: 4%;">GCSE</p>
 					<div class="classImages">
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/B.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/C.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Chemistry <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/P.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Physics <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/M.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Maths <br> Saturday 12-2</p>
 							</a>
@@ -87,25 +88,25 @@
 					<p class="h3" style="margin-left: 4%;">A-Level</p>
 					<div class="classImages">
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/B.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/C.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Chemistry <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/P.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Physics <br> Saturday 12-2</p>
 							</a>
 						</div>
 						<div class="classThumbnail">
-							<a href="" class="classLink">
+							<a href="classDetails.php" class="classLink">
 								<img src="images/M.png" alt="" class="img-thumbnail">
 								<p class="thumbnailTitle lead">Maths <br> Saturday 12-2</p>
 							</a>
