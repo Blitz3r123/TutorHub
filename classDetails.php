@@ -15,12 +15,35 @@
 		<!-- Main page content -->
 		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
 			<div class="container-fluid" style=""><!-- container for padding -->
-				<canvas id="myChart" width="70%" height="35" style="margin-left: 35%;"></canvas>
+				<div class="chartContainer" style="width: 45%; margin-left: 25vw; float: left;">
+					<canvas id="myChart" width="400" height="400"></canvas>
+				</div>
+				<div class="chartContainer" style="width: 45%; margin-left: 25vw; float: left;">
+					<canvas id="myChart2" width="400" height="400"></canvas>
+				</div>
 			</div>
 		</div>
 		<script>
 			var ctx = document.getElementById("myChart");
 			var myPieChart = new Chart(ctx, {
+				type: 'doughnut',
+				data: data = {
+					datasets: [{
+						data: [10, 20, 30],
+						backgroundColor: ['rgba(255, 0, 0, 0.5)',
+						'rgba(255, 255, 0, 0.5)',
+						'rgba(0, 0, 255, 0.5)']
+					}],
+
+    				// These labels appear in the legend and in the tooltips when hovering different arcs
+    				labels: [
+    					'Red',	
+    					'Yellow',
+    					'Blue'
+    				]
+				}});
+			var ctx2 = document.getElementById("myChart2");
+			var myPieChart = new Chart(ctx2, {
 				type: 'doughnut',
 				data: data = {
 					datasets: [{
