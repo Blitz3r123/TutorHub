@@ -8,6 +8,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>		
 		<link rel="stylesheet" href="css/classesStyle.css">
+		<link rel="stylesheet" href="css/classDetailStyle.css">
 	</head>
 	<body>
 		<?php require_once('loggedNavbar.php'); ?>
@@ -15,11 +16,19 @@
 		<!-- Main page content -->
 		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
 			<div class="container-fluid" style=""><!-- container for padding -->
-				<div class="chartContainer" style="width: 45%; margin-left: 25vw; float: left;">
-					<canvas id="myChart" width="400" height="400"></canvas>
-				</div>
-				<div class="chartContainer" style="width: 45%; margin-left: 25vw; float: left;">
-					<canvas id="myChart2" width="400" height="400"></canvas>
+				<div class="graphContainer">
+					<div class="chartContainer" style="width: 30%; float: left;">
+						<canvas id="myChart" width="400" height="400"></canvas>
+						<p class="h3 graphTitle">Attendance</p>
+					</div>
+					<div class="chartContainer" style="width: 30%; float: left;">
+						<canvas id="myChart2" width="400" height="400"></canvas>
+						<p class="h3 graphTitle">Marks</p>
+					</div>
+					<div class="chartContainer" style="width: 30%; float: left;">
+						<canvas id="myChart3" width="400" height="400"></canvas>
+						<p class="h3 graphTitle">Marks</p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -30,9 +39,11 @@
 				data: data = {
 					datasets: [{
 						data: [10, 20, 30],
-						backgroundColor: ['rgba(255, 0, 0, 0.5)',
-						'rgba(255, 255, 0, 0.5)',
-						'rgba(0, 0, 255, 0.5)']
+						backgroundColor: [
+							'rgba(255, 0, 0, 0.5)',
+							'rgba(255, 255, 0, 0.5)',
+							'rgba(0, 0, 255, 0.5)'
+						]
 					}],
 
     				// These labels appear in the legend and in the tooltips when hovering different arcs
@@ -41,7 +52,8 @@
     					'Yellow',
     					'Blue'
     				]
-				}});
+				}
+			});
 			var ctx2 = document.getElementById("myChart2");
 			var myPieChart = new Chart(ctx2, {
 				type: 'doughnut',
@@ -60,6 +72,28 @@
     					'Blue'
     				]
 				}});
+
+			var ctx3 = document.getElementById("myChart3");
+			var myPieChart = new Chart(ctx3, {
+				type: 'doughnut',
+				data: data = {
+					datasets: [{
+						data: [10, 20, 30],
+						backgroundColor: [
+							'rgba(255, 0, 0, 0.5)',
+							'rgba(255, 255, 0, 0.5)',
+							'rgba(0, 0, 255, 0.5)'
+						]
+					}],
+
+    				// These labels appear in the legend and in the tooltips when hovering different arcs
+    				labels: [
+    					'Red',	
+    					'Yellow',
+    					'Blue'
+    				]
+				}
+			});
 		</script>
 	</body>
 </html>
