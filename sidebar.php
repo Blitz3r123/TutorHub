@@ -1,5 +1,5 @@
 <!-- Side navigation bar -->
-<div id="sideNav" style="margin-top: 8vh;" class="col-md-3 col-lg-3 col-sm-3 hidden-xs">
+<div id="sideNav" style="margin-top: 8vh; position: fixed;" class="col-md-3 col-lg-3 col-sm-3 hidden-xs">
 	<p class="lead" style="font-size: 2rem;">Kaleem,<br> here are your classes</p>
 	<ul class="nav flex-column" id="sideNavbar">
 		<li class="nav-item">
