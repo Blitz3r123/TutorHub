@@ -60,20 +60,28 @@ body{
 }
 
 form{
-	margin-left: 35vw;
+	margin-left: 32vw;
+}
+
+.classImages{
+	display: flex;
+	/*outline: 1px solid black;*/
+	height: 35vh;
+	flex-wrap: wrap;
 }
 
 .subjectContainer{
-	outline: 1px solid black;
 	margin-top: 2vh;
 }
 
-.img-thumbnail{
-	margin-left: 1%;
-	margin-right: 1%;
-	margin-bottom: 2%;
+.classThumbnail{
+	/*outline: 1px solid red;	*/
+	padding: 10px 12px;
+	width: 20%;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
 }
 
-.left-image{
-	margin-left: 2.5%;
+.thumbnailTitle{
+	text-align: center;
 }
