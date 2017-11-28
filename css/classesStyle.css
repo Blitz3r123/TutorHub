@@ -81,6 +81,10 @@ form{
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 }
+.classThumbnail img{
+	width: 100%;
+	height: 60%;
+}
 
 .thumbnailTitle{
 	text-align: center;
