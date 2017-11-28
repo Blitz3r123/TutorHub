@@ -34,6 +34,18 @@
 	margin-left: 3vw;
 }
 
+.studentsContainer{
+	/*outline: 1px solid black;*/
+	margin-top: 55vh;
+}
+
+.student-title{
+	/*outline: 1px solid black;*/
+	margin-left: 3vw;
+	border-bottom: 1px solid black;
+	margin-right: 3vw;
+}
+
 /*SIDE NAVIGATION BAR STYLES*/
 
 #sideNav{

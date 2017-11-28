@@ -38,9 +38,8 @@
 					</div>
 
 					<div class="studentsContainer">
-						
+						<p class="h2 student-title">Students</p>
 					</div>
-
 				</div>
 
 			</div>
