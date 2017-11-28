@@ -27,7 +27,7 @@
 					</div>
 					<div class="chartContainer" style="width: 30%; float: left;">
 						<canvas id="myChart3" width="400" height="400"></canvas>
-						<p class="h3 graphTitle">Marks</p>
+						<p class="h3 graphTitle">Students</p>
 					</div>
 				</div>
 			</div>
