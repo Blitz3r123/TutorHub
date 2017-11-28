@@ -24,23 +24,91 @@
 				</div>
 				
 				<div class="subjectContainer">
-					<p class="h3" style="margin-left: 2.5%;">KS3</p>
+					<p class="h3" style="margin-left: 4%;">KS3</p>
 					<div class="classImages">
 						<div class="classThumbnail">
-							<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
-							<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
 						</div>
 						<div class="classThumbnail">
-							<img src="images/thumbnail.svg" alt="" class="img-thumbnail">	
-							<p class="thumbnailTitle lead">Chemistry <br> Saturday 12-2</p>
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
 						</div>
 						<div class="classThumbnail">
-							<img src="images/thumbnail.svg" alt="" class="img-thumbnail">	
-							<p class="thumbnailTitle lead">Physics <br> Saturday 12-2</p>
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
 						</div>
 						<div class="classThumbnail">
-							<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
-							<p class="thumbnailTitle lead">Maths <br> Saturday 12-2</p>	
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="subjectContainer">
+					<p class="h3" style="margin-left: 4%;">GCSE</p>
+					<div class="classImages">
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="subjectContainer">
+					<p class="h3" style="margin-left: 4%;">A-LEVEL</p>
+					<div class="classImages">
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
+						</div>
+						<div class="classThumbnail">
+							<a href="" class="classLink">
+								<img src="images/thumbnail.svg" alt="" class="img-thumbnail">
+								<p class="thumbnailTitle lead">Biology <br> Saturday 12-2</p>
+							</a>
 						</div>
 					</div>
 				</div>

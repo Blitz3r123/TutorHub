@@ -85,3 +85,7 @@ form{
 .thumbnailTitle{
 	text-align: center;
 }
+
+.classLink:hover{
+	text-decoration: underline;
+}
