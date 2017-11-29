@@ -9,19 +9,34 @@
 		<link rel="stylesheet" href="css/studentStyle.css">
 		<link rel="stylesheet" href="css/sidebarStyle.css">
 	</head>
-	<body>
+	<body onload="resetDropdown()">
 		<?php require_once('loggedNavbar.php'); ?>
 		<?php require_once('sidebar.php'); ?>
 		<!-- Main page content -->
 		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12">
 			<div class="container-fluid" style=""><!-- container for padding -->
 				<div class="studentSelectionContainer">
-					
+					<form action="">
+						<select name="studentList" id="studentListSelect">
+							<option disabled>Select a student</option>
+							<option value="">Bob Jones</option>
+							<option value="">Bob Jones</option>
+							<option value="">Bob Jones</option>
+							<option value="">Bob Jones</option>
+						</select>
+					</form>
 				</div>
-				<!-- <div class="studentProfileContainer">
-					
-				</div> -->
+
+				<!-- WHEN A SELECTION HAS BEEN MADE IN ABOVE DIV THEN HIDE ABOVE DIV AND SHOW BELOW DIV -->
+
+				<div class="studentProfileContainer">
+						
+				</div>
+
 			</div>
 		</div>
+
+		<!-- LOAD SCRIPTS AT END OF SITE FOR FASTER LOADING -->
+		<script src="js/studentScript.js"></script>
 	</body>
 </html>
