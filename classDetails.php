@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>TutorHub Physics</title>
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
@@ -39,6 +40,48 @@
 
 					<div class="studentsContainer">
 						<p class="h2 student-title">Students</p>
+
+						<div class="student-thumbnail-container">
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="teachersContainer">
+						<p class="h2 teacher-title">Teachers</p>
+
+						<div class="teacher-thumbnail-container">
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+							<div class="thumbnail">
+								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
+								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -50,17 +93,15 @@
 				type: 'doughnut',
 				data: data = {
 					datasets: [{
-						data: [10, 20, 30],
+						data: [20, 30],
 						backgroundColor: [
 							'rgba(255, 0, 0, 0.5)',
-							'rgba(255, 255, 0, 0.5)',
-							'rgba(0, 0, 255, 0.5)'
+							'rgba(255, 255, 0, 0.5)'
 						]
 					}],
 
     				// These labels appear in the legend and in the tooltips when hovering different arcs
-    				labels: [
-    					'Red',	
+    				labels: [	
     					'Yellow',
     					'Blue'
     				]
@@ -71,17 +112,15 @@
 				type: 'doughnut',
 				data: data = {
 					datasets: [{
-						data: [10, 20, 30],
+						data: [20, 30],
 						backgroundColor: ['rgba(255, 0, 0, 0.5)',
-						'rgba(255, 255, 0, 0.5)',
 						'rgba(0, 0, 255, 0.5)']
 					}],
 
     				// These labels appear in the legend and in the tooltips when hovering different arcs
     				labels: [
     					'Red',	
-    					'Yellow',
-    					'Blue'
+    					'Yellow'
     				]
 				}});
 
@@ -90,10 +129,9 @@
 				type: 'doughnut',
 				data: data = {
 					datasets: [{
-						data: [10, 20, 30],
+						data: [10, 20],
 						backgroundColor: [
 							'rgba(255, 0, 0, 0.5)',
-							'rgba(255, 255, 0, 0.5)',
 							'rgba(0, 0, 255, 0.5)'
 						]
 					}],
@@ -101,8 +139,7 @@
     				// These labels appear in the legend and in the tooltips when hovering different arcs
     				labels: [
     					'Red',	
-    					'Yellow',
-    					'Blue'
+    					'Yellow'
     				]
 				}
 			});

@@ -46,6 +46,48 @@
 	margin-right: 3vw;
 }
 
+.student-thumbnail-container{
+	/*outline: 1px solid black;*/
+	width: 100%;
+	display: flex;
+}
+
+.teachersContainer{
+	/*outline: 1px solid black;*/
+	margin-top: 7.5vh;
+}
+
+.teacher-title{
+	/*outline: 1px solid black;*/
+	margin-left: 3vw;
+	border-bottom: 1px solid black;
+	margin-right: 3vw;
+}
+
+.teacher-thumbnail-container{
+	/*outline: 1px solid black;*/
+	width: 100%;
+	display: flex;
+}
+
+
+.thumbnail{
+	/*outline: 1px solid black;*/
+	width: 30%;
+	flex-wrap: wrap;
+}
+
+.thumbnail-image{
+	width: 65%;
+	height: 65%;
+	margin-left: 17.5%;
+	margin-top: 17.5%;
+}
+
+.thumbnail-name{
+	text-align: center;
+}
+
 /*SIDE NAVIGATION BAR STYLES*/
 
 #sideNav{
