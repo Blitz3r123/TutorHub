@@ -28,9 +28,17 @@
 				</div>
 
 				<!-- WHEN A SELECTION HAS BEEN MADE IN ABOVE DIV THEN HIDE ABOVE DIV AND SHOW BELOW DIV -->
-
+				
+				<div class="studentNameContainer">
+					<p class="h4">Kaleem Peeroo</p>
+				</div>
 				<div class="studentProfileContainer">
+					<div class="mainContent">
 						
+					</div>
+					<div class="sideContent">
+						
+					</div>
 				</div>
 
 			</div>

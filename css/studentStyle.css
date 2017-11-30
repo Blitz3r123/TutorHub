@@ -13,10 +13,32 @@
 	margin-top: 10vh;
 	margin-bottom: 10vh;
 	background-color: #eee;
+
+	display: none;
+
 }
 
+.studentNameContainer{
+	/*outline: 1px solid black;*/
+	margin-top: 3vh;
+	height: 7vh;
+	width: 15vw;
+	background-color: #eee;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+.studentNameContainer p{
+	line-height: 7vh;
+	text-align: center;
+	/*outline: 1px solid black;*/
+}
 .studentProfileContainer{
 	/*outline: 1px solid black;*/
+	height: 84vh;
+	/*border: 1px solid #333;*/
+	border-radius: 3px;
+	background-color: #eee;
+	border-top-left-radius: 0px;
 }
 
 #studentListSelect{
