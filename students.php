@@ -33,13 +33,13 @@
 					<div class="studentNameContainer">
 						<p class="h4">Kaleem Peeroo</p>
 					</div>
-					<div class="studentProfileContainer">
+					<div class="studentProfileContainer" id="studentProfileContainer">
 						<div class="mainContent">
 							<br>
 							<p class="h5 yearTitle">Year 11</p>
 							<br>
 							<div class="progressContainer">
-								<p class="h6 progressTitle">Attendance</p>					
+								<p class="h6 progressTitle"><a href="attendance.php">Attendance</a></p>					
 								<div class="progress">
 									<div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
 								</div>
@@ -65,7 +65,7 @@
 
 							<div class="subjectDropdownContainer">
 								<p class="h4 subjectTitle">
-									<a href="#subjectCollapse" class="btn btn-secondary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse">Biology &#9660;</a>
+									<a href="#subjectCollapse" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse">Biology &#9660;</a>
 								</p>
 								<div class="collapse" id="subjectCollapse">
 									<div class="card card-block subjectCollapseContainer">
@@ -97,11 +97,11 @@
 
 							<div class="subjectDropdownContainer">
 								<p class="h4 subjectTitle">
-									<a href="#subjectCollapse0" class="btn btn-secondary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse0">Biology &#9660;</a>
+									<a href="#subjectCollapse0" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse0">Biology &#9660;</a>
 								</p>
 								<div class="collapse" id="subjectCollapse0">
 									<div class="card card-block subjectCollapseContainer">
-										
+
 										<div class="progressContainer">
 											<p class="h6 progressTitle">Something Else</p>					
 											<div class="progress">
@@ -129,11 +129,11 @@
 
 							<div class="subjectDropdownContainer">
 								<p class="h4 subjectTitle">
-									<a href="#subjectCollapse1" class="btn btn-secondary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse1">Biology &#9660;</a>
+									<a href="#subjectCollapse1" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse1">Biology &#9660;</a>
 								</p>
 								<div class="collapse" id="subjectCollapse1">
 									<div class="card card-block subjectCollapseContainer">
-										
+
 										<div class="progressContainer">
 											<p class="h6 progressTitle">Something Else</p>					
 											<div class="progress">
@@ -161,11 +161,11 @@
 
 							<div class="subjectDropdownContainer">
 								<p class="h4 subjectTitle">
-									<a href="#subjectCollapse2" class="btn btn-secondary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse2">Biology &#9660;</a>
+									<a href="#subjectCollapse2" class="btn btn-primary" data-toggle="collapse" aria-expanded="false" aria-controls="subjectCollapse2">Biology &#9660;</a>
 								</p>
 								<div class="collapse" id="subjectCollapse2">
 									<div class="card card-block subjectCollapseContainer">
-										
+
 										<div class="progressContainer">
 											<p class="h6 progressTitle">Something Else</p>					
 											<div class="progress">
@@ -190,11 +190,16 @@
 									</div>
 								</div>
 							</div>
-							
+
 
 						</div>
 						<div class="sideContent">
-							
+							<div class="profilePictureContainer">
+								<img src="images/thumbnail.svg" alt="Profile Picture">
+							</div>
+							<div class="detailContainer">
+								<p class="h3 detailTitle">Details</p>
+							</div>
 						</div>
 					</div>
 				</div>
