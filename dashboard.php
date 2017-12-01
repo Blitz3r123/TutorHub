@@ -17,16 +17,22 @@
 			<div class="container-fluid" style=""><!-- container for padding -->
 				<!-- FOUR BIG BUTTONS ON MAIN CONTENT -->
 				<div class="topicButton">
-					<a href="students.php">Students</a>
+					<a href="test.php">Classes</a>
 				</div>
 				<div class="topicButton">
-					<a href="teachers.php">Teachers</a>
+					<a href="test.php">Students</a>
 				</div>
 				<div class="topicButton">
-					<a href="homeworks.php">Homeworks</a>
+					<a href="test.php">Teachers</a>
+				</div>
+				<div class="topicButton">
+					<a href="test.php">Homeworks</a>
 				</div>
 				<div class="topicButton">
 					<a href="test.php">Tests</a>
+				</div>
+				<div class="topicButton">
+					<a href="test.php">Timetable</a>
 				</div>
 			</div>
 		</div>
