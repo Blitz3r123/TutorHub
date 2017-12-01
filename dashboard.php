@@ -15,24 +15,38 @@
 		<!-- Main page content -->
 		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh; margin-left: 25vw;">
 			<div class="container-fluid" style=""><!-- container for padding -->
+
+				<!-- RECENT STATISTICS -->
+				<div class="statsContainer">
+					<p class="h1">Recent</p>
+					<div class="buttonContainer">
+						<a href="" class="btn btn-primary">Classes</a>
+						<a href="" class="btn btn-primary">Students</a>
+						<a href="" class="btn btn-primary">Teachers</a>
+						<a href="" class="btn btn-primary">Kaleem Peeroo</a>
+						<a href="" class="btn btn-primary">Peter Smith</a>
+						<a href="" class="btn btn-primary">Biology</a>
+					</div>
+				</div>
+
 				<!-- FOUR BIG BUTTONS ON MAIN CONTENT -->
 				<div class="topicButton">
-					<a href="test.php">Classes</a>
+					<a href="classes.php">Classes</a>
 				</div>
 				<div class="topicButton">
-					<a href="test.php">Students</a>
+					<a href="students.php">Students</a>
 				</div>
 				<div class="topicButton">
-					<a href="test.php">Teachers</a>
+					<a href="teachers.php">Teachers</a>
 				</div>
 				<div class="topicButton">
-					<a href="test.php">Homeworks</a>
+					<a href="homeworks.php">Homeworks</a>
 				</div>
 				<div class="topicButton">
-					<a href="test.php">Tests</a>
+					<a href="tests.php">Tests</a>
 				</div>
 				<div class="topicButton">
-					<a href="test.php">Timetable</a>
+					<a href="timetable.php">Timetable</a>
 				</div>
 			</div>
 		</div>

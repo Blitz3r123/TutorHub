@@ -48,6 +48,36 @@ body{
 
 /*END OF SIDE NAVIGATION BAR STYLES*/
 
+/*RECENT STATS STYLES*/
+.statsContainer{
+	/*outline: 1px solid black;*/
+	height: auto;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 8vh;
+	border: 1px solid #666;
+	border-radius: 3px;
+	padding-bottom: 3vh;
+}
+.statsContainer p{
+	/*outline: 1px solid black;*/
+	width: 80%;
+	border-bottom: 1px solid #666;
+	margin-left: 10%;
+	margin-top: 3vh;
+}
+.statsContainer .buttonContainer{
+	/*outline: 1px solid black;*/
+	width: 80%;
+	margin-left: 10%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.statsContainer .buttonContainer a{
+	margin-left: 1vw;
+	margin-top: 3vh;
+}
+/*END OF RECENT STATS STYLES*/
 
 /*MAIN PAGE CONTENT STYLES*/
 .topicButton a{
