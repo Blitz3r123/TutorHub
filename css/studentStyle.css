@@ -6,6 +6,7 @@
 
 .studentSelectionContainer{
 	/*border: 1px solid #666;*/
+	/*outline: 1px solid black;*/
 	border-radius: 3px;
 	width: 90%;
 	height: 70vh;
@@ -27,6 +28,14 @@
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
 }
+
+.mainContentContainer{
+	/*outline: 1px solid black;*/
+	/*position: fixed;*/
+	/*width: 70%;*/
+	background-attachment: fixed;
+}
+
 .studentNameContainer p{
 	line-height: 7vh;
 	text-align: center;
@@ -34,11 +43,65 @@
 }
 .studentProfileContainer{
 	/*outline: 1px solid black;*/
-	height: 84vh;
+	height: auto;
 	/*border: 1px solid #333;*/
 	border-radius: 3px;
 	background-color: #eee;
 	border-top-left-radius: 0px;
+	display: flex;
+}
+
+.mainContent{
+	/*outline: 1px solid black;*/
+	width: 70%;
+	height: 100vh;
+	background-color: #eee;
+}
+
+.mainContent .yearTitle{
+	margin-left: 1.5vw;
+	margin-top: -1vh;
+	color: #666;
+}
+
+.mainContent .progress{
+	/*outline: 1px solid black;*/
+	width: 80%;
+	background-color: #FFF;
+	margin-left: 10%;
+}
+
+.mainContent .progressContainer{
+	/*outline: 1px solid black;*/
+	padding: 1vh 1vw;
+	margin-bottom: 3vh;
+}
+
+.mainContent .subjectTitle{
+	/*outline: 1px solid black;*/
+	margin-top: 5vh;
+	text-align: center;
+}
+
+.mainContent .subjectTitle a{
+	/*outline: 1px solid black;*/
+	width: 80%;
+}
+
+.mainContent .subjectCollapseContainer{
+	margin-left: 1vw;
+	margin-right: 1vw;
+}
+
+.mainContent .progressContainer .progressTitle{
+	/*outline: 1px solid black;*/
+	text-align: center;
+}
+
+.sideContent{
+	outline: 1px solid red;
+	width: 30%;
+	height: 100vh;
 }
 
 #studentListSelect{
