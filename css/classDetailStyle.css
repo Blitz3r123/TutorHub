@@ -46,15 +46,22 @@
 	margin-right: 3vw;
 }
 
+.teacher-thumbnail-container{
+	flex-wrap: wrap;
+	display: flex;
+}
+
 .student-thumbnail-container{
 	/*outline: 1px solid black;*/
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .teachersContainer{
 	/*outline: 1px solid black;*/
 	margin-top: 7.5vh;
+	flex-wrap: wrap;
 }
 
 .teacher-title{
@@ -67,7 +74,7 @@
 
 .thumbnail{
 	/*outline: 1px solid black;*/
-	width: 30%;
+	width: 25%;
 	flex-wrap: wrap;
 }
 
