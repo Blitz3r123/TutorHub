@@ -44,27 +44,27 @@
 						<div class="student-thumbnail-container">
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 						</div>
 					</div>
@@ -75,11 +75,11 @@
 						<div class="teacher-thumbnail-container">
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name">Bob Jones <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 						</div>
 					</div>
