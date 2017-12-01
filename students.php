@@ -31,7 +31,11 @@
 				
 				<div class="mainContentContainer">
 					<div class="studentNameContainer">
-						<p class="h4">Kaleem Peeroo</p>
+						<form action="">
+							<select name="" id="">
+								<option>Kaleem Peeroo</option>
+							</select>
+						</form>
 					</div>
 					<div class="studentProfileContainer" id="studentProfileContainer">
 						<div class="mainContent">
@@ -199,6 +203,17 @@
 							</div>
 							<div class="detailContainer">
 								<p class="h3 detailTitle">Details</p>
+								<p class="lead detailContent">First Name: <span class="detailContentInfo">Kaleem</span></p>
+								<p class="lead detailContent">Last Name: <span class="detailContentInfo">Peeroo</span></p>
+								<p class="lead detailContent">Father: <span class="detailContentInfo">Salim</span></p>
+								<p class="lead detailContent">Mother: <span class="detailContentInfo">Fadina</span></p>
+								<p class="lead detailContent">Email: <span class="detailContentInfo">email@email.com</span></p>
+								<p class="lead detailContent">Father Email: <span class="detailContentInfo">email@email.com</span></p>
+								<p class="lead detailContent">Mother Email: <span class="detailContentInfo">email@email.com</span></p>
+								<p class="lead detailContent">Phone: <span class="detailContentInfo">12345678910</span></p>
+								<p class="lead detailContent">Father Phone: <span class="detailContentInfo">12345678910</span></p>
+								<p class="lead detailContent">Mother Phone: <span class="detailContentInfo">12345678910</span></p>
+								<p><a href="editStudentDetails.php" class="btn btn-primary editStudentDetailButton">Edit</a></p>
 							</div>
 						</div>
 					</div>
