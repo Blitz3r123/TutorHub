@@ -20,7 +20,7 @@
 			<div class="container-fluid"><!-- container for padding -->
 				
 				<div class="main-content">
-					<p class="h1 page-title">GCSE Biology</p>
+					<p class="h1 page-title">GCSE Biology <a href="" class="btn btn-primary" style="float: right; margin-right: 10%; margin-top: 2vh;">Edit</a></p>
 					<p class="lead h5 page-subtitle">Saturday 12pm - 2pm</p><br>
 
 					<div class="graphContainer">
@@ -93,17 +93,17 @@
 				type: 'doughnut',
 				data: data = {
 					datasets: [{
-						data: [20, 30],
+						data: [70, 30],
 						backgroundColor: [
-							'rgba(255, 0, 0, 0.5)',
-							'rgba(255, 255, 0, 0.5)'
+							'rgba(255, 255, 0, 0.5)',
+							'rgba(255, 0, 0, 0.5)'
 						]
 					}],
 
     				// These labels appear in the legend and in the tooltips when hovering different arcs
     				labels: [	
-    					'Yellow',
-    					'Blue'
+    					'Present',
+    					'Absent'
     				]
 				}
 			});
@@ -119,8 +119,8 @@
 
     				// These labels appear in the legend and in the tooltips when hovering different arcs
     				labels: [
-    					'Red',	
-    					'Yellow'
+    					'Average Incorrect',	
+    					'Average Correct'
     				]
 				}});
 
@@ -138,8 +138,8 @@
 
     				// These labels appear in the legend and in the tooltips when hovering different arcs
     				labels: [
-    					'Red',	
-    					'Yellow'
+    					'Male',	
+    					'Female'
     				]
 				}
 			});
