@@ -2,12 +2,23 @@
 <html>
 	<head>
 		<title>TutorHub Physics</title>
+
+		<!-- Bootstrap Dep -->
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+		<!-- Jquery Dep -->
 		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+		<!-- Bootstrap JS Dep -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+		<!-- Chart.js Dep -->
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>		
+		<script src="node_modules/chartjs/chart.js"></script>
+
+		<!-- Custom CSS -->
 		<link rel="stylesheet" href="css/classesStyle.css">
 		<link rel="stylesheet" href="css/classDetailStyle.css">
 		<link rel="stylesheet" href="css/sidebarStyle.css">
@@ -44,7 +55,7 @@
 						<div class="student-thumbnail-container">
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">
-								<p class="lead thumbnail-name"><a href="">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
+								<p class="lead thumbnail-name"><a href="studentDetails.php">Bob Jones</a> <br> <span class="small lead">Yr 11</span></p>
 							</div>
 							<div class="thumbnail">
 								<img src="images/thumbnail.svg" class="thumbnail-image" alt="">

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>TutorHub Homeworks</title>
+		<title>TutorHub Teachers</title>
 		<!-- Bootstrap Dep -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -19,15 +19,17 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 		
-		<link rel="stylesheet" href="css/classesStyle.css">
+		<link rel="stylesheet" href="css/attendanceStyle.css">
+		<link rel="stylesheet" href="css/sidebarStyle.css">
 	</head>
 	<body>
 		<?php require_once('loggedNavbar.php'); ?>
 		<?php require_once('sidebar.php'); ?>
+
 		<!-- Main page content -->
-		<div id="content" class="col-md-9 col-lg-9 col-sm-9 col-xs-12" style="margin-top: 8vh;">
-			<div class="container-fluid" style=""><!-- container for padding -->
-				
+		<div class="container-fluid">
+			<div class="content-container">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quibusdam nihil provident placeat ratione accusantium cum, veritatis hic similique illo adipisci neque excepturi obcaecati, incidunt molestiae reiciendis, qui eaque illum!</p>
 			</div>
 		</div>
 	</body>
