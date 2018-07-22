@@ -29,7 +29,7 @@
 			<div class="container-fluid" style="margin-left: 25%;"><!-- container for padding -->
 
 				<!-- RECENT STATISTICS -->
-				<div class="statsContainer">
+				<div class="statsContainer" style="margin-top: 13vh;">
 					<p class="h1">Recent</p>
 					<div class="buttonContainer">
 						<a href="" class="btn btn-primary">Classes</a>
