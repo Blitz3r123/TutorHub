@@ -81,7 +81,7 @@
 					</div>
 
 					<div class="teachersContainer">
-						<p class="h2 teacher-title">Teachers</p>
+						<p class="h2 teacher-title">Teachers<a href="" class="btn btn-primary" style="float: right; margin-top: -1vh;">Add a Teacher</a></p>
 
 						<div class="teacher-thumbnail-container">
 							<div class="thumbnail">
