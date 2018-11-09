@@ -29,26 +29,34 @@
 		<div class="container">
 			<form method="post" action="registerScript.php">
 				<div class="form-group">
-					<label for="inputEmail">Email address</label>
-					<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+					<label for="firstName">First Name</label>
+					<input type="text" class="form-control" id="firstName" aria-describedby="emailHelp" placeholder="Enter your first name">
+				</div>
+				<div class="form-group">
+					<label for="surname">Surname</label>
+					<input type="text" class="form-control" id="surname" aria-describedby="emailHelp" placeholder="Enter your surname">
 				</div>
 				<div class="form-group">
 					<label for="inputEmail">Email address</label>
 					<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
 				</div>
 				<div class="form-group">
-					<label for="inputEmail">Email address</label>
-					<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
-				</div>
-				<div class="form-group">
-					<label for="inputEmail">Email address</label>
-					<input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+					<label for="inputEmailConfirmation">Confirm Email address</label>
+					<input type="email" class="form-control" id="inputEmailConfirmation" aria-describedby="emailHelp" placeholder="Confirm email">
 				</div>
 				<div class="form-group">
 					<label for="inputPassword">Password</label>
-					<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+					<input type="password" class="form-control" id="inputPassword" aria-describedby="emailHelp" placeholder="Enter password">
 				</div>
-				<input type="submit" value="Login" class="btn btn-primary" style="" id="login-btn"></input>
+				<div class="form-group">
+					<label for="inputPasswordConfirmation">Confirm Password</label>
+					<input type="password" class="form-control" id="inputPasswordConfirmation" aria-describedby="emailHelp" placeholder="Confirm password">
+				</div>
+				<div class="form-group">
+					<label for="educationCenter">Education Center</label>
+					<input type="password" class="form-control" id="educationCenter" placeholder="Enter name of your education center">
+				</div>
+				<input type="submit" value="Register" class="btn btn-primary" style="" id="register-btn"></input>
 			</form>
 		</div>
 	</body>
