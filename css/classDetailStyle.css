@@ -1,6 +1,7 @@
 .graphContainer{
 	/*outline: 1px solid black;*/
 	width: 100%;
+	margin-bottom: 55vh;
 }
 
 .main-content{ 
@@ -36,7 +37,6 @@
 
 .studentsContainer{
 	/*outline: 1px solid black;*/
-	margin-top: 55vh;
 }
 
 .student-title{
