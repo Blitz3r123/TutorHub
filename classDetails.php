@@ -53,12 +53,12 @@
 						<p class="h2 student-title">To Do List</p>
 
 						<div class="student-thumbnail-container">
-							<ul>
-								<li>task 1</li>
-								<li>task 1</li>
-								<li>task 1</li>
-								<li>task 1</li>
-								<li>task 1</li>
+							<ul class="list-group">
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
 							</ul>
 						</div>
 					</div>
