@@ -50,6 +50,14 @@
 					</div>
              
 					<div class="studentsContainer">
+						<p class="h2 student-title">To Do List</p>
+
+						<div class="student-thumbnail-container">
+							
+						</div>
+					</div>
+
+					<div class="studentsContainer">
 						<p class="h2 student-title">Students</p>
 
 						<div class="student-thumbnail-container">
