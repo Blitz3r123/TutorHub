@@ -58,6 +58,11 @@
 	flex-wrap: wrap;
 }
 
+.student-thumbnail-container ul{
+	width: 50%;
+	margin-left: 25%;
+}
+
 .teachersContainer{
 	/*outline: 1px solid black;*/
 	margin-top: 7.5vh;
