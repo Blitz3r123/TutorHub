@@ -64,7 +64,7 @@
 					</div>
 
 					<div class="studentsContainer">
-						<p class="h2 student-title">Students</p>
+						<p class="h2 student-title">Students<a href="" class="btn btn-primary" style="float: right; margin-top: -1vh;">Add a Student</a></p>
 
 						<div class="student-thumbnail-container">
 							<div class="thumbnail">
@@ -95,7 +95,7 @@
 					</div>
 
 					<div class="teachersContainer">
-						<p class="h2 teacher-title">Teachers</p>
+						<p class="h2 teacher-title">Teachers<a href="" class="btn btn-primary" style="float: right; margin-top: -1vh;">Add a Teacher</a></p>
 
 						<div class="teacher-thumbnail-container">
 							<div class="thumbnail">
