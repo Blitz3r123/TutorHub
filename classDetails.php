@@ -48,6 +48,20 @@
 							<p class="h3 graphTitle">Students</p>
 						</div>
 					</div>
+             
+					<div class="studentsContainer">
+						<p class="h2 student-title">To Do List</p>
+
+						<div class="student-thumbnail-container">
+							<ul class="list-group">
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
+								<li class="list-group-item">task 1</li>
+							</ul>
+						</div>
+					</div>
 
 					<div class="studentsContainer">
 						<p class="h2 student-title">Students<a href="" class="btn btn-primary" style="float: right; margin-top: -1vh;">Add a Student</a></p>
